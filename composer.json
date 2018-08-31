@@ -1,0 +1,24 @@
+{
+    "name": "babca/huawei-api",
+    "type": "library",
+    "description": "A library for basic interaction with Huawei B2338 router/LTE modem",
+    "homepage": "https://github.com/babca/huawei-api",
+    "keywords": ["B2338", "B2338-168"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "babca",
+            "email": "",
+            "homepage": "https://github.com/babca/",
+            "role": ""
+        }
+    ],
+    "autoload": {
+        "psr-0" : {
+            "HuaweiApi" : "src"
+        }
+    },
+    "require": {
+        "php": ">=5.6.0"
+    }
+}
